@@ -5,9 +5,10 @@ import { Link } from 'react-router-dom';
 import { useAuth } from "./../../contexts/AuthProvider";
 
 function Dropdown() {
+  const auth = useAuth();
   const clear = () => {
     localStorage.clear();
-    window.location.reload();
+    auth.setUser(null);
   }
   return (
     <div className="dropdown">
