@@ -1,0 +1,45 @@
+.dahboard-wrapper {
+  position: relative;
+  text-align: start;
+  margin: 0 152px;
+  color: var(--white);
+  font-size: 12px;
+  height: calc(100vh - 70px);
+}
+
+.locaiton-item {
+  color: white;
+  text-decoration: none;
+}
+
+.dashboard-title {
+  color: var(--white);
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 24px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.no-job-wrapper {
+  width: 100%;
+  position: absolute;
+  height: calc(100vh - 70px);
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.no-job-text {
+  color: var(--blue-500);
+  font-size: 20px;
+  margin-top: 18.85px;
+}
+
+.job-card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 290px);
+  grid-gap: 18px;
+}

@@ -1,0 +1,50 @@
+.sigup-wrapper {
+  background-color: var(--blue-100);
+  height: calc(100vh-70px);
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.sigup-dark-background {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 292px;
+  width: 100%;
+  background: transparent
+    linear-gradient(253deg, var(--blue-500) 0%, #1a253c 100%) 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  z-index: inherit;
+}
+
+.sigup-box {
+  width: 557px;
+  height: 711px;
+  background: var(--white) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 30px 36px #557da526;
+  border-radius: 20px;
+  opacity: 1;
+  margin-top: 30px;
+  position: relative;
+  z-index: 2;
+}
+
+.signup-radio-btn {
+  margin-top: 0;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 14px;
+  width: 148px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+

@@ -1,0 +1,32 @@
+.login-wrapper {
+  background-color: var(--blue-100);
+  height: calc(100vh-70px);
+  width: 100%;
+  position: relative;
+}
+
+.login-dark-background {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 292px;
+  width: 100%;
+  background: transparent
+    linear-gradient(253deg, var(--blue-500) 0%, #1a253c 100%) 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+
+.login-box {
+  position: absolute;
+  top: 90px;
+  left: 50%;
+  width: 557px;
+  height: 427px;
+  transform: translateX(-50%);
+  background: var(--white) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 30px 36px #557da526;
+  border-radius: 20px;
+  opacity: 1;
+}
+
